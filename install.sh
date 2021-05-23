@@ -34,6 +34,9 @@ ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 # install LTS version of node
 n lts
 
+# only install yarn after node has been installed to satisfy the dependency
+brew install yarn
+
 # Install scm breeze
 git clone git://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
 ~/.scm_breeze/install.sh

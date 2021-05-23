@@ -28,7 +28,6 @@ brew 'gifsicle'
 
 # Development
 brew 'n'
-brew 'yarn'
 
 # Apps
 cask 'caffeine'
