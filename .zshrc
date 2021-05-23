@@ -1,3 +1,4 @@
+export N_PREFIX=$HOME/.n
 # Path to your dotfiles.
 export DOTFILES=$HOME/.dotfiles
 

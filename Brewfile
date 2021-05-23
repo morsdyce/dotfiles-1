@@ -27,7 +27,7 @@ brew 'svgo'
 brew 'gifsicle'
 
 # Development
-brew 'node'
+brew 'n'
 brew 'yarn'
 
 # Apps
