@@ -2,6 +2,8 @@
 
 echo "Setting up your Mac..."
 
+cd ~/.dotfiles || { echo "You must clone dotfiles into ~/.dotfiles"; exit 1; }
+
 # Check for Oh My Zsh and install if we don't have it
 if test ! $(which omz); then
   /bin/sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/HEAD/tools/install.sh)"
