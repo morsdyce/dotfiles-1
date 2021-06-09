@@ -44,5 +44,9 @@ brew install yarn
 git clone git://github.com/scmbreeze/scm_breeze.git ~/.scm_breeze
 ~/.scm_breeze/install.sh
 
+# Fix zsh permissions
+sudo chmod -R 755 /usr/local/share/zsh
+sudo chown -R root:staff /usr/local/share/zsh
+
 # Set macOS preferences - we will run this last because this will reload the shell
 source .macos
