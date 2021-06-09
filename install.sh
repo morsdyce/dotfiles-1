@@ -31,6 +31,9 @@ ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/.mackup.cfg $HOME/.mackup.cfg
 
+# reload zshrc to apply to the current session
+source $HOME/.zshrc
+
 # install LTS version of node
 n lts
 
