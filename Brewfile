@@ -38,6 +38,7 @@ cask 'webstorm'
 cask 'the-unarchiver'
 cask 'zoom'
 cask 'harvest'
+cask 'rectangle'
 
 # Quicklook
 cask 'qlmarkdown'
