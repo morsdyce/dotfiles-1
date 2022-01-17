@@ -3,7 +3,7 @@ export N_PREFIX=$HOME/.n
 export DOTFILES=$HOME/.dotfiles
 
 # If you come from bash you might have to change your $PATH.
-export PATH=$HOME/.n/bin:/usr/local/bin:$PATH
+export PATH=$HOME/.n/bin:/usr/local/bin:/opt/homebrew/bin:$PATH
 
 # Path to homebrew for M1 Macs
 if [[ -f "/opt/homebrew/bin/brew" ]]; then
